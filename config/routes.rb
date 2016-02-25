@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'inventory/index'
+
+  get 'inventory/show'
+
   resources :products
   get 'home/index'
 
