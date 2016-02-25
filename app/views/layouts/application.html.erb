@@ -8,9 +8,13 @@
 </head>
 <body>
 
-  <%= render partial: "layouts/navigation" %>
+  <div class="wrapper">
+    <%= render partial: "layouts/navigation" %>
 
-  <%= yield %>
+    <%= yield %>
+    
+    <div class="push"></div>
+  </div>
   
   <%= render partial: "layouts/footer" %>
 
